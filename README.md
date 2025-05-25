@@ -39,12 +39,14 @@ todo-redux-app/
 ## Getting Started
 
 1. Clone the repository:
+
    ```bash
    git clone [repository-url]
    cd todo-redux-app
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    # or
@@ -54,6 +56,7 @@ todo-redux-app/
    ```
 
 3. Run the development server:
+
    ```bash
    npm run dev
    # or
@@ -67,6 +70,7 @@ todo-redux-app/
 ## Features in Detail
 
 ### Todo Management
+
 - Add new todos
 - Mark todos as complete/incomplete
 - Delete todos
@@ -74,12 +78,14 @@ todo-redux-app/
 - Clear completed todos
 
 ### Pomodoro Timer
+
 - Customizable work/break intervals
 - Visual timer display
 - Sound notifications
 - Session tracking
 
 ### Advanced Features
+
 - Debounced search
 - Local storage persistence
 - Responsive design
@@ -104,4 +110,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Shadcn/ui](https://ui.shadcn.com/)
-- [Lucide Icons](https://lucide.dev/) 
+- [Lucide Icons](https://lucide.dev/)
