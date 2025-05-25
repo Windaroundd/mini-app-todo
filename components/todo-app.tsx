@@ -30,7 +30,13 @@ export default function TodoApp() {
 
   const handleAddTodo = () => {
     if (inputValue.trim()) {
-      dispatch(addTodo(inputValue.trim()))
+      dispatch(
+        addTodo({
+          text: inputValue.trim(),
+          priority: "medium",
+          category: "Personal",
+        }),
+      )
       setInputValue("")
     }
   }
